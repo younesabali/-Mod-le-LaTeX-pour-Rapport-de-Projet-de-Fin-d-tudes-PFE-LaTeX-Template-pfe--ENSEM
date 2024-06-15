@@ -1,0 +1,2 @@
+# -Mod-le-LaTeX-pour-Rapport-de-Projet-de-Fin-d-tudes-PFE-LaTeX-Template-pfe--ENSEM
+Ce dépôt contient un modèle LaTeX conçu pour la rédaction du Rapport de Projet de Fin d'Études (PFE) destiné aux étudiants de l'ÉCOLE NATIONALE SUPÉRIEURE D'ÉLECTRICITÉ ET DE MÉCANIQUE (ENSEM), UNIVERSITÉ HASSAN II DE CASABLANCA. Ce modèle est spécifiquement adapté aux étudiants poursuivant un diplôme d'Ingénieur d'État en Génie Électrique
