@@ -1,0 +1,92 @@
+\documentclass[a4paper,12pt]{report}
+
+\include{Packages}
+\include{Format}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%-------------> PAGE DE GARDE INFO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\selectlanguage{french}	
+\date{26/06/2024}
+
+%\setcounter{tocdepth}{6}
+%\setcounter{secnumdepth}{6}
+\newcommand{\logoentreprise}{logos/logo_ensem.jpg}
+
+\newcommand{\titre}{Étude et dimensionnement de l'installation électrique pour le Projet Handline Phosboucraa} 
+\newcommand{\mention}{Rapport de Projet de Fin d’Etudes } 
+\newcommand{\trigrammemention}{GSE} 
+\newcommand{\Departement}{Département : Génie électrique} 
+\newcommand{\filiere}{Filière : Génie des systèmes électriques}
+\newcommand{\eleve}{ABALI Younes et AIT BABLAl Hamza}
+\newcommand{\dates}{\today}
+\newcommand{\tuteuruniv}{
+	{ABALI Younes} \\
+{AIT BABLAl Hamza}
+} 
+
+\newcommand{\logoentrep}{
+	 \textsc{\href{https://www.linkedin.com/in/abdelaziz-belfqih-534873263/}{Abdelaziz BELFQIH }} \\
+	\textsc{\href{https://www.linkedin.com/in/faissal-elmariami-91959b4a/}{Pr.ELMARIAMI } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%-------------> DEBUT DU DOCUMENT 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\graphicspath{{Figures/}}
+
+\include{page_de_garde}
+\input{bsmala}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%-------------> SOMMAIRE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{roman}
+\renewcommand\contentsname{Sommaire}
+\setcounter{chapter}{0}
+\include{frontmatter/Dedicace}
+\include{frontmatter/remerciement}
+\include{frontmatter/abstract}
+\tableofcontents
+\thispagestyle{emptypagenum} 
+\clearpage 
+
+\listoffigures
+\thispagestyle{emptypagenum}
+\clearpage 
+\listoftables
+
+\thispagestyle{emptypagenum}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%-------------> CORPS DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------
+\newpage
+
+\include{frontmatter/Symb}
+\clearpage
+\pagenumbering{arabic}
+\include{chapitre/intro}
+\include{chapitre/ch1}
+\include{chapitre/ch2}
+\include{chapitre/ch3}
+\include{chapitre/ch4}
+\include{chapitre/ch6}
+\include{chapitre/ch5}
+\include{chapitre/clc}
+\bibliographystyle{ieeetr}
+\addcontentsline{toc}{chapter}{References}  
+\bibliography{references}
+\include{annex/Annexe A}
+\include{annex/Annexe B}
+\include{annex/Annexe C}
+\end{document}
