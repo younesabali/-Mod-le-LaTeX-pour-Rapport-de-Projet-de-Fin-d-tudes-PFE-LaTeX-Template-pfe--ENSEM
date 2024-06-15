@@ -1,0 +1,107 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: PFE.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: page_de_garde.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: frontmatter/Dedicace.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: frontmatter/remerciement.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: frontmatter/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: frontmatter/Symb.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: chapitre/intro.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/ch1.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/ch2.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/ch3.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/ch4.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/ch6.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/ch5.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: chapitre/clc.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+White space in argument---line 53 of file PFE.aux
+ : \@input{annex/Annexe
+ :                      A.aux}
+I'm skipping whatever remains of this command
+White space in argument---line 54 of file PFE.aux
+ : \@input{annex/Annexe
+ :                      B.aux}
+I'm skipping whatever remains of this command
+White space in argument---line 55 of file PFE.aux
+ : \@input{annex/Annexe
+ :                      C.aux}
+I'm skipping whatever remains of this command
+Database file #1: references.bib
+Warning--entry type for "chapitre22" isn't style-file defined
+--line 20 of file references.bib
+Warning--entry type for "chauvin-arnoux" isn't style-file defined
+--line 27 of file references.bib
+I was expecting a `,' or a `}'---line 31 of file references.bib
+ :  urldate = {2024-05-26} 
+ :                         % Date de consultation du lien
+I'm skipping whatever remains of this entry
+Warning--entry type for "ENSEM2019" isn't style-file defined
+--line 35 of file references.bib
+Warning--entry type for "hardwarefr" isn't style-file defined
+--line 100 of file references.bib
+Warning--entry type for "phosboucraa" isn't style-file defined
+--line 108 of file references.bib
+Warning--entry type for "marocma" isn't style-file defined
+--line 116 of file references.bib
+Warning--entry type for "source_butec" isn't style-file defined
+--line 125 of file references.bib
+Warning--entry type for "NF-C13-200" isn't style-file defined
+--line 139 of file references.bib
+You've used 17 entries,
+            1876 wiz_defined-function locations,
+            583 strings with 6488 characters,
+and the built_in function-call counts, 2284 in all, are:
+= -- 214
+> -- 69
+< -- 0
++ -- 34
+- -- 17
+* -- 89
+:= -- 335
+add.period$ -- 29
+call.type$ -- 17
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 87
+empty$ -- 310
+format.name$ -- 17
+if$ -- 580
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 7
+newline$ -- 67
+num.names$ -- 16
+pop$ -- 106
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 53
+stack$ -- 0
+substring$ -- 0
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 16
+width$ -- 19
+write$ -- 149
+(There were 4 error messages)

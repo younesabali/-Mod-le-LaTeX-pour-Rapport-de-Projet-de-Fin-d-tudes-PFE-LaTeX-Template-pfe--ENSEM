@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         FORMAT PERSONNALISES                           %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\parindent=0pt        %leading space for paragraphs
+\pagestyle{fancy}
+\newgeometry{
+	left    = 2.5cm,
+	right   = 2.5cm,
+	top     = 2.1cm,
+	bottom  =2cm
+}
+\renewcommand{\arraystretch}{1}
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[L]{\includegraphics[width=0.18\textwidth]{logos/butec1.pdf}} %% clear out all headers
+\fancyhead[R]{\includegraphics[width=0.06\textwidth]{logos/ensem.pdf}}
+
+\renewcommand\footrulewidth{1pt}
+
+\fancyfoot[L]{Projet de Fin d’Etudes} 																		% DOCUMENT CONFIDENTIEL
+\fancyfoot[R]{GSE}		 																	% NOM DU LABO
+
+\newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}
+\setlength{\doublerulesep}{\arrayrulewidth} 
+
+
+\usepackage{tikz}																							% pour les diagrammes
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.geometric,shapes.arrows,decorations.pathmorphing}
+\usetikzlibrary{matrix,chains,scopes,positioning,shapes,arrows,fit}
+\usetikzlibrary{calc,decorations.pathreplacing}
+\usetikzlibrary{calc}
+\usetikzlibrary{backgrounds,decorations.markings}
+
+\setcounter{secnumdepth}{5}		%sous sous sous section
